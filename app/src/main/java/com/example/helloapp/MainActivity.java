@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView x = findViewById(R.id.lblHello);
-        x.setText("Hello");
+       // x.setText("Hello");
+        x.setText((new CLottoGen()).GetLotto());
     }
 }
